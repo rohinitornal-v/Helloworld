@@ -52,7 +52,7 @@ phone.phone()
 
 # Square of a number
 sqr = Square()
-number_to_square = 10
+number_to_square = float(input("Enter the Number: "))
 print(f"\nSquare of {number_to_square}: {sqr.square(number_to_square)}")
 
 # Age and risk
